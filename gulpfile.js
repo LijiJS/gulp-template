@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var less = require('gulp-less');
+var sass = require('gulp-sass');
 var smushit = require('gulp-smushit');
 var uglify = require('gulp-uglify');
 var uglifyCSS = require('gulp-minify-css');
@@ -11,7 +11,7 @@ gulp.task('html', function(){
 
 gulp.task('toCSS', function(){
     return gulp.src('dev/styles/notCompiled/*')
-        .pipe(less())
+        .pipe(sass())
         .pipe(gulp.dest('dev/styles'))
 });
 
