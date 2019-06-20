@@ -11,7 +11,7 @@
     "url": "https://github.com/LijiJS/gulp-template.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
