@@ -3,7 +3,7 @@ html{
   height: 100%;
   body{
     height: 100%;
-    background: #fff;
+    background: #65b2cb;
     .txt-welcome{
       display: flex;
       width: 100%;
@@ -13,16 +13,10 @@ html{
       justify-content: center;
       div{
         width: 100%;
-        color: #0071bd;
+        color: #fff;
         transform: translateY(-50%);
-        img{
-          display: block;
-          width: 100px;
-          margin: 0 auto;
-          margin-bottom: 38px;
-        }
         h2{
-          font-size: 60px;
+          font-size: 70px;
           text-align: center;
         }
         p{
